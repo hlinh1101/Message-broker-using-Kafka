@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class KafkaConsumer {
-    @KafkaListener(topics = "user-topic-v2", groupId = "app-b-group", containerFactory = "userKafkaListenerFactory")
+    @KafkaListener(topics = "test-topic", groupId = "app-b-group", containerFactory = "userKafkaListenerFactory")
     public void listenUser(User user) {
         System.out.println("App B get user: " + user.getName() + " - age: " + user.getAge());
     }
