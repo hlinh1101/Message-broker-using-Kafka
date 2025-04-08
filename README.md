@@ -10,3 +10,6 @@
 ![Screenshot 2025-04-08 180526](https://github.com/user-attachments/assets/7688ee6d-d679-4ccf-b041-99e2d878ef42)
 ![Screenshot 2025-04-08 180638](https://github.com/user-attachments/assets/13ca2902-841a-426a-b3cf-7c611352c990)
 
+### Kafaka làm leader trong partitions 0 => Dừng Kafka 2 
+##### Vẫn nhận được request bình thường nhưng kèm theo Warnings trong log
+![Screenshot 2025-04-08 185338](https://github.com/user-attachments/assets/87944b96-e41c-4bfe-9dbd-5758afa73fae)
