@@ -11,5 +11,5 @@
 ![Screenshot 2025-04-08 180638](https://github.com/user-attachments/assets/13ca2902-841a-426a-b3cf-7c611352c990)
 
 ### Kafka 2 làm leader trong partitions 0 => Dừng Kafka 2 
-##### Vẫn nhận được request bình thường nhưng kèm theo Warnings trong log
+##### Hệ thống hoạt động bình thường, vẫn nhận được request  nhưng kèm theo Warnings trong log
 ![Screenshot 2025-04-08 185338](https://github.com/user-attachments/assets/87944b96-e41c-4bfe-9dbd-5758afa73fae)
