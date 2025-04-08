@@ -16,7 +16,7 @@ public class MessageController {
 
     @PostMapping("/user")
     public String sendUser(@RequestBody User user) {
-        kafkaTemplate.send("user-topic-v2", user);
+        kafkaTemplate.send("test-topic", user);
         return "Đã gửi user: " + user.getName();
     }
 }
