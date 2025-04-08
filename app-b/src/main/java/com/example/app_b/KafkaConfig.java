@@ -21,7 +21,7 @@ public class KafkaConfig {
         deserializer.addTrustedPackages("*"); // cho phép mọi class
 
         Map<String, Object> config = new HashMap<>();
-        config.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+        config.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, localhost:29092,localhost:29093,localhost:29094");
         config.put(ConsumerConfig.GROUP_ID_CONFIG, "app-b-group");
         config.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
 
